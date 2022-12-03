@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header2{
+    width: 100%;
+    height: 120px;
+    background: #141414;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+
+.logo{
+    color: #fafafa;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+h2{
+    text-decoration: none;
+}
+
+span{
+    color: #e7e42c;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #e7e42c;
+    transition: 0.4s;
+}
+
+.tentang-saya-2 {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #2d2d2d;
+}
+
+.tentang-saya-2 video{
+    height: auto;
+    width: 430px
+}
+
+.tentang-saya-text-2 {
+    width: 550px;
+}
+
+.main-2 {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tentang-saya-text-2 h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 55px;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+}
+
+.tentang-saya-text-2 h5 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.tentang-saya-text-2 p{
+    color: #e7e42c;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: #e7e42c;
+    color: #2d2d2d;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #e7e42c;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e7e42c;
+    border-radius: 50%;
+    margin: 25px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+    color: #141414;
+    transition: 0.4s;
+}
+
+.akhir {
+    position: absolute;
+    font-size: 13px;
+    color: #e7e42c;
+    bottom: 01px;
+}
+
+/*HANDPHONE PERSEPEKTIF*/
+@media screen and (max-width: 620px) {
+
+    *{
+        height: auto;
+        width: auto;
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    
+    .header2{
+        width: 100%;
+        height: 15vh;
+        background: #141414;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .logo {
+        font-size: 25px;
+    }
+    
+    nav ul li {
+        font-size: 10px;
+        padding: 15px;
+       display: contents;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+        
+    nav ul li a:hover{
+        color: #e7e42c;
+        transition: 0.4s;
+    }
+
+    /*TENTANG SAYA*/
+    .tentang-saya-2 video {
+        width: 150px;
+        height: auto;
+        transform: translateY(-79%) translateX(-103.8px);
+    }
+
+    .main-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .tentang-saya-text-2 h2 {
+        width: 100%;
+        color: #fff;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 19px;
+        margin: center;
+        text-transform: capitalize;
+        transform: translateY(400%) translateX(75.37px);
+    }
+
+    .tentang-saya-text-2 h5 {
+        width: 100%;
+        color: #fff;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 9px;
+        margin: center;
+        text-transform: capitalize;
+        transform: translateY(420%) translateX(75.92px);
+    }
+
+    .tentang-saya-text-2 p {
+        width: 150%;
+        color: #e7e42c;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 10px;
+        margin: center;
+        text-transform: capitalize;
+        transform: translateY(40%) translateX(24.5px);
+    }
+
+    button {
+        background-color: #e7e42c;
+        color: #2d2d2d;
+        width: 130px;
+        height: 30px;
+        font-size: 8px;
+        border: 1px solid transparent;
+        font-weight: bold;
+        padding: 1px 5px;
+        border-radius: 30px;
+        transition: 0.4s;   
+        transform: translateY(50%) translateX(113.97px);
+    }
+    
+    button:hover {
+        transform: scale(1.2);
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #e7e42c;
+        cursor: pointer;
+        transform: translateY(50%) translateX(113.97px);
+    }
+
+
+/*FOOTER*/
+    footer p:nth-child(2) {
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        width: 220px;
+        line-height: 26px;
+        transform: translateY(-40%)
+    }
+
+    
+}
